@@ -1,0 +1,8 @@
+camera1:
+  image: camera
+  ports: 
+    - "8000:8000"
+gui:
+  image: camera_gui
+  ports:
+    - "50:50"
